@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+}
+
+.pb-6 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/*Alinhar img com texto*/
+.alinharcomimg {
+    vertical-align: middle;
+}
+
+/*Alinhar img com texto*/
+
+/*Configurações de texto*/
+.escrita {
+    color: rgb(159, 159, 159);
+    font-size: x-large;
+    padding-top: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+/*Responsividade*/
+@media screen and (max-width:480px ){
+    p{
+       margin-top: 50px;
+       margin-bottom: 0px;
+    }
+
+    .col-md-6{
+        padding-left: 0px;
+    }
+
+    .pb-6{
+        padding: 0px;
+    }
+   
+    img.ml-4.pb-6{
+        display: none;
+    }
+
+    img{
+        src:("https://i.imgur.com/vSC59Es.gif");
+        width: 150px;
+        display: flex;
+        align-items: center;
+        margin-left: 80px;
+    }
+    
+    .escrita {
+        color: rgb(218, 218, 218);
+        font-size: x-large;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+    }
+}
+/*Responsividade*/
