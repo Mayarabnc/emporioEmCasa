@@ -6,6 +6,7 @@ import { FacaSeuPedidoComponent } from './faca-seu-pedido/faca-seu-pedido.compon
 import { NavbarComponent } from './navbar/navbar.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 
+
 const routes: Routes = [
   {path:"cardapio", component:CardapioComponent},
   {path:"carrossel", component:CarrosselComponent},

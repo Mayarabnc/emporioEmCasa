@@ -1,3 +1,5 @@
+/*Configurações das setas do carrossel*/
+
 .carousel-control-next{
     border: 0px;
     opacity: 0.2;
@@ -15,3 +17,23 @@
 .carousel-control-prev-icon{
     filter: invert(100%);
 }
+
+/*Configurações das setas do carrossel*/
+
+/*Responsividade*/
+
+@media screen and (max-width:768px){
+    img{
+        width: 100vw !important;
+        height: 50vh !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    img{
+        width: 100vw !important;
+        height: 63vh !important;
+    }
+}
+
+/*Responsividade*/
