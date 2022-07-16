@@ -8,6 +8,8 @@ import { CarrosselComponent } from './carrossel/carrossel.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { CardapioComponent } from './cardapio/cardapio.component';
 import { FacaSeuPedidoComponent } from './faca-seu-pedido/faca-seu-pedido.component';
+import { PaginaPrincipalComponent } from './pagina-principal/pagina-principal.component';
+import { VoltarTopoComponent } from './voltar-topo/voltar-topo.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { FacaSeuPedidoComponent } from './faca-seu-pedido/faca-seu-pedido.compon
     CarrosselComponent,
     SobreNosComponent,
     CardapioComponent,
-    FacaSeuPedidoComponent
+    FacaSeuPedidoComponent,
+    PaginaPrincipalComponent,
+    VoltarTopoComponent,
   ],
   imports: [
     BrowserModule,

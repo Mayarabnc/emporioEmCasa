@@ -1,7 +1,23 @@
 #cardapio{
-    background-color: #f4900b;
+    background-color: #dcdcdc;
 }
 
 p{
+    color: #181818;
+}
+
+.mt-queijo{
+    margin-top: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    color: #fe9915;
+}
+
+.link:hover{
     color: #181818;
 }
