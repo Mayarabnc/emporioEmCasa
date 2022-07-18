@@ -51,6 +51,20 @@
     }
 }
 
+@media screen and (min-width:769px) {
+    img.esconder{
+        display: none;
+    }
+
+    img.esconder2{
+       width: 400px;
+    }
+
+    img.esconder3{
+        display: none;
+    }
+}
+
 @media screen and (max-width:768px) {
     img.esconder{
         src:("https://i.imgur.com/vSC59Es.gif");
@@ -106,6 +120,5 @@
         font-family: 'Ubuntu', sans-serif;
         font-weight: 400;
     }
-
 }
 /*Responsividade*/

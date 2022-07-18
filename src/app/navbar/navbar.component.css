@@ -42,3 +42,6 @@
 }
 /*Cor e efeito das letras do menu*/
 
+nav{
+    scroll-behavior: smooth
+}
