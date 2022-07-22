@@ -9,7 +9,8 @@ p{
 /* Configurações da imagem do queijo */
 
 .img-queijo{
-    margin-top: 7%;
+    margin-top: 2%;
+    margin-left: 4%;
 }
 
 /* Configurações da imagem do queijo */
@@ -26,6 +27,22 @@ a{
 
 .link:hover{
     color: #181818;
+}
+
+.btn-laranja{
+    background-color: #fe9915;
+    color: #dcdcdc;
+    border-color: #dcdcdc;
+    border-radius: 100%;
+    padding: 20px 30px 20px 30px;
+}
+
+.btn-laranja:hover{
+    background-color: #dcdcdc;
+    color: #fe9915;
+    border-color: #fe9915;
+    border-radius: 100%;
+    padding: 20px 30px 20px 30px;
 }
 
 /* Configurações do link */
